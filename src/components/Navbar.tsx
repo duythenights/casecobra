@@ -55,7 +55,6 @@ const Navbar = async () => {
               <>
 
                 <RegisterLink
-                  href='/api/auth/register'
                   className={buttonVariants({
                     size: 'sm',
                     variant: 'ghost',
@@ -64,7 +63,6 @@ const Navbar = async () => {
                 </RegisterLink>
 
                 <LoginLink
-                  href='/api/auth/login'
                   className={buttonVariants({
                     size: 'sm',
                     variant: 'ghost',
