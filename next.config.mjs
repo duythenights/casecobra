@@ -4,7 +4,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "*.ufs.sh", // Allows all subdomains of ufs.sh
+        hostname: "*.ufs.sh",
+      },
+      {
+        protocol: "https",
+        hostname: "utfs.io",
       },
     ],
   },
