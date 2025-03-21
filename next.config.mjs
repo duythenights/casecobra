@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["utfs.io", "ufs.sh"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*.ufs.sh", // Allows all subdomains of ufs.sh
+      },
+    ],
   },
 };
 
