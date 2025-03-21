@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['utfs.io'],
+    domains: ["utfs.io", "ufs.sh"],
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
