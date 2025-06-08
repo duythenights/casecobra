@@ -27,6 +27,7 @@ const Navbar = async () => {
             {user ? (
               <>
                 <Link
+                  prefetch={false}
                   href="/api/auth/logout"
                   className={buttonVariants({
                     size: "sm",
